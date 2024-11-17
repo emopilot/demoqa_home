@@ -1,16 +1,17 @@
+import pytest
 from pages.swag_labs import SwagLabs
 
-def test_icon_exists(driver):
-    page = SwagLabs(driver)
-    page.visit()
-    assert page.exist_icon() == True, "Icon not found on the page"
+def test_icon_exists(browser):
+    swag = SwagLabs(browser)
+    swag.visit()
+    assert swag.exist_icon(), "Login icon is missing"
 
-def test_username_field_exists(driver):
-    page = SwagLabs(driver)
-    page.visit()
-    assert page.exist_username_field() == True, "Username field not found on the page"
+def test_username_field_exists(browser):
+    swag = SwagLabs(browser)
+    swag.visit()
+    assert swag.find_element('input#user-name'), "Username field is missing"
 
-def test_password_field_exists(driver):
-    page = SwagLabs(driver)
-    page.visit()
-    assert page.exist_password_field() == True, "Password field not found on the page"
+def test_password_field_exists(browser):
+    swag = SwagLabs(browser)
+    swag.visit()
+    assert swag.find_element('input#password'), "Password field is missing"
