@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49a55e4a-fc9b-4272-9346-1e19660f2363" name="Changes" comment=" gv">
-      <change afterPath="$PROJECT_DIR$/pages/modal_dialogs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tests_hw/test_page_dialogs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/modal_dialogs.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/modal_dialogs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_page_dialogs.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/test_page_dialogs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_page_dialogs.test_modal_elements.executor": "Run",
     "Python tests.Python tests in test_visible_hw.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -58,7 +59,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_visible_hw.py">
+  <component name="RunManager" selected="Python.modal_dialogs">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="demoqa_home" />
       <option name="ENV_FILES" value="" />
@@ -81,6 +82,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="modal_dialogs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="demoqa_home" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/modal_dialogs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_page_dialogs.test_modal_elements" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="demoqa_home" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/tests_hw" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_page_dialogs.test_modal_elements&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_visible_hw.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="demoqa_home" />
       <option name="ENV_FILES" value="" />
@@ -98,6 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.modal_dialogs" />
+        <item itemvalue="Python tests.Python tests for test_page_dialogs.test_modal_elements" />
         <item itemvalue="Python tests.Python tests in test_visible_hw.py" />
       </list>
     </recent_temporary>
@@ -142,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731838978689</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" gv">
+      <option name="closed" value="true" />
+      <created>1731923806388</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731923806388</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
