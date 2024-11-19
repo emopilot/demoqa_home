@@ -1,31 +1,49 @@
 import pytest
+from pages.modal_dialogs import ModalDialogsPage
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from pages.modal_dialogs import ModalDialogsPage
-
 
 def test_modal_elements(browser):
-    # Создаем объект страницы
     page = ModalDialogsPage(browser)
 
-    # Открываем страницу
     page.open_page()
 
-    try:
-        # Ожидаем, пока кнопки появятся на странице
-        menu_buttons = WebDriverWait(browser, 20).until(
-            EC.presence_of_all_elements_located(page.MENU_BUTTONS)
-        )
+    expected_buttons_count = 5
+    actual_buttons_count = page.get_submenu_buttons_count()
+    assert actual_buttons_count == expected_buttons_count, \
+        f"Ожидается {expected_buttons_count} кнопок, но найдено {actual_buttons_count}"
 
-        # Логируем найденные кнопки
-        print(f"Найдено {len(menu_buttons)} кнопок:")
-        for btn in menu_buttons:
-            print(f"- Текст кнопки: {btn.text}, HTML: {btn.get_attribute('outerHTML')}")
+def test_navigation_modal(browser):
+    page = ModalDialogsPage(browser)
 
-        # Проверяем, что кнопок ровно 5
-        assert len(menu_buttons) == 5, f"Ожидается 5 кнопок, но найдено {len(menu_buttons)}"
+    page.open_page()
 
-    except Exception as e:
-        # Логируем ошибку и делаем скриншот
-        browser.save_screenshot("screenshot_error.png")
-        pytest.fail(f"Ошибка при проверке кнопок подменю: {e}")
+    browser.refresh()
+
+    WebDriverWait(browser, 20).until(EC.url_contains("modal-dialogs"))
+
+    page.click_home_icon()
+
+    WebDriverWait(browser, 20).until(EC.url_to_be("https://demoqa.com/"))
+    assert browser.current_url == "https://demoqa.com/", \
+        f"Ожидается URL https://demoqa.com/, но получен {browser.current_url}"
+
+    browser.back()
+
+    WebDriverWait(browser, 20).until(EC.url_contains("modal-dialogs"))
+
+    browser.set_window_size(900, 400)
+
+    browser.forward()
+
+    WebDriverWait(browser, 20).until(EC.url_to_be("https://demoqa.com/"))
+    assert browser.current_url == "https://demoqa.com/", \
+        f"Ожидается URL https://demoqa.com/, но получен {browser.current_url}"
+
+    WebDriverWait(browser, 20).until(
+        lambda driver: driver.title == "DEMOQA"
+    )
+    assert browser.title == "DEMOQA", \
+        f"Ожидается title 'DEMOQA', но получен {browser.title}"
+
+    browser.set_window_size(1000, 1000)

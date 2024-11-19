@@ -49,6 +49,7 @@
   "keyToString": {
     "Python tests.Python tests for test_page_dialogs.test_modal_elements.executor": "Run",
     "Python tests.Python tests in test_visible_hw.py.executor": "Run",
+    "Python.modal_dialogs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/emopilot/demoqa_home"
@@ -190,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731923806388</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" gv">
+      <option name="closed" value="true" />
+      <created>1731935792729</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731935792729</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
