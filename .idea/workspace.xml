@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49a55e4a-fc9b-4272-9346-1e19660f2363" name="Changes" comment=" gv">
+      <change afterPath="$PROJECT_DIR$/pages/text_box_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/tests_hw/test_text_box.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/modal_dialogs.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/modal_dialogs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_check_swag.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_check_swag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_check_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/test_check_text.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_page_dialogs.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/test_page_dialogs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_visible_hw.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/test_visible_hw.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +62,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
     </key>
   </component>
   <component name="RunManager" selected="Python.modal_dialogs">
@@ -199,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731935792729</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=" gv">
+      <option name="closed" value="true" />
+      <created>1732000959142</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732000959142</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
