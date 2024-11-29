@@ -1,17 +1,30 @@
-def test_webtables(browser):
+def test_webtables_add_new_record(browser):
     from pages.webtables_page import WebTablesPage
 
-    # Создаем объект страницы
     page = WebTablesPage(browser)
 
-    # Переходим на страницу
     page.open_page()
 
-    # Проверяем наличие кнопки Add
     page.click_add_button()
     assert page.is_dialog_open(), "Диалоговое окно не открылось"
 
-    # Нажимаем Submit без заполнения формы
+    first_name = "Alice"
+    last_name = "Wonderland"
+    email = "alice.wonder@land.com"
+    age = "25"
+    salary = "70000"
+    department = "Engineering"
+    page.fill_form(first_name, last_name, email, age, salary, department)
+
     page.submit_form()
-    assert page.is_dialog_open(), "Диалоговое окно закрылось после отправки пустой формы"
-    assert page.is_form_error_displayed(), "Ошибка не отображается при отправке пустой формы"
+
+    assert page.is_dialog_closed(), "Диалоговое окно не закрылось после отправки формы"
+
+    rows = page.browser.find_elements(*page.TABLE_ROWS)
+    print("Таблица содержит строки после добавления записи:")
+    for row in rows:
+        cells = row.find_elements(*page.TABLE_CELL)
+        print([cell.text for cell in cells])
+
+    assert page.is_record_in_table(first_name, last_name, email), \
+        "Новая запись не добавлена в таблицу"
