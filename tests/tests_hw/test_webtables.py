@@ -41,6 +41,6 @@ def test_webtables_crud_operations(browser):
     assert page.is_dialog_closed(), "Диалоговое окно не закрылось"
     assert page.is_record_in_table(updated_record), "Запись не обновилась в таблице"
 
-=    page.perform_action_on_row(updated_record, "delete")
+    page.perform_action_on_row(updated_record, "delete")
 
-=    assert not page.is_record_in_table(updated_record), "Запись не была удалена из таблицы"
+    assert not page.is_record_in_table(updated_record), "Запись не была удалена из таблицы"

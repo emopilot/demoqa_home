@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49a55e4a-fc9b-4272-9346-1e19660f2363" name="Changes" comment=" gv">
-      <change afterPath="$PROJECT_DIR$/pages/test_web_tables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/webtables_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/webtables_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_check_alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/test_check_alert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_check_modal.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/test_check_modal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_check_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/test_check_text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_login_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/test_login_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_login_form_validate.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/test_login_form_validate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_page_dialogs.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/test_page_dialogs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/test_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_text_box.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/test_text_box.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_visible_hw.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/test_visible_hw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_webtables.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/test_webtables.py" afterDir="false" />
-    </list>
+    <list default="true" id="49a55e4a-fc9b-4272-9346-1e19660f2363" name="Changes" comment=" gv" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -300,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732965377625</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=" gv">
+      <option name="closed" value="true" />
+      <created>1732967056128</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732967056128</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
