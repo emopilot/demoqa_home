@@ -44,4 +44,3 @@ def test_sort_columns_by_class(browser):
         reversed_class = header_element.get_attribute("class")
         assert reversed_class != sorted_class, f"Класс для заголовка не изменился после второго клика: {header_element.text}"
 
-print('go')
